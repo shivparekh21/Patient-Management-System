@@ -6,4 +6,5 @@ import java.util.UUID;
 
 @org.springframework.stereotype.Repository
 public interface PatientRepository extends JpaRepository<Patient, UUID> {
+    boolean existsByEmail(String email);
 }

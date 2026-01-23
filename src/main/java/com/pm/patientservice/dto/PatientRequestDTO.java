@@ -13,10 +13,6 @@ public class PatientRequestDTO {
 
     @NotBlank
     @Email(message = "Email should be valid")
-    @Pattern(
-            regexp = "^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+$",
-            message = "Invalid email format"
-    )
     private String email;
 
     @NotBlank

@@ -6,7 +6,7 @@ Content-Type: application/json
       "name": "Rushabh Shah",
       "email": "r.shah@gmail.com",
       "address": "123 Main St, Springfield, IL",
-      "dateOfBirth": "1980-05-15",
+      "dateOfBirth": "",
       "registeredDate": "2026-10-01"
 }
 
