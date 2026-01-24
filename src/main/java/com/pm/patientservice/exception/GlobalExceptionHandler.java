@@ -36,4 +36,13 @@ public class GlobalExceptionHandler extends RuntimeException {
         return ResponseEntity.status(409).body(error);
     }
 
+    @ExceptionHandler(PatientNotFoundException.class)
+    public ResponseEntity<Map<String, String>> handlePatientNotFoundException
+            (PatientNotFoundException ex) {
+        log.error("Patient not found: {} ", ex.getMessage());
+        Map<String, String> error = new HashMap<>();
+        error.put("message", "Patient not found Patient Handler in Global Handler");
+        return ResponseEntity.status(404).body(error);
+    }
+
 }

@@ -5,7 +5,6 @@ import com.pm.patientservice.dto.PatientResponseDTO;
 import com.pm.patientservice.model.Patient;
 
 import java.time.LocalDate;
-import java.util.UUID;
 
 public class PatientMapper {
 

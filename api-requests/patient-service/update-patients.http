@@ -1,0 +1,10 @@
+### Put request to update patient information
+PUT http://localhost:4000/patients/update/afb891f7-7905-491e-aaab-97f6d6fcd088
+Content-Type: application/json
+
+{
+      "name": "Zamki UPDATED",
+      "email": "zamki.s@gmail.com",
+      "address": "123, long island",
+      "dateOfBirth": "1991-05-17"
+}
