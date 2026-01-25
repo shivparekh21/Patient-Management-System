@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+// split our service request and response files all into different files y default code generation puts it in same file
+// easy to manage code
+option java_multiple_files = true;
+option java_package = "billing";
+
+// specify name of the service and any method that are part of the service
+// and anything that it returns
+service BillingService{
+  rpc CreateBillingAccount(BillingRequest) returns (BillingResponse);
+}
+
+message BillingRequest{
+  string patientId = 1;
+  string name = 2;
+  string email = 3;
+}
+
+message BillingResponse{
+  string accountId = 1;
+  string status = 2;
+}
+// gRPC = Google Remote Procedure Call.
+// “gRPC is a framework that lets programs communicate with each other over the network as if they were calling local functions.
+// You define services and messages in a .proto file using Protocol Buffers, and it generates client and server code automatically.
+// It’s fast, strongly typed, supports streaming, and works across multiple programming languages
