@@ -118,6 +118,13 @@
             <artifactId>protobuf-java</artifactId>
             <version>3.25.5</version>
         </dependency>
+
+<!--     It will provide out-of-box code to interact with kafka broker-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-kafka</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>

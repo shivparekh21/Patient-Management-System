@@ -1,0 +1,85 @@
+# ==========================
+# IDE / Editor files
+# ==========================
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# ==========================
+# OS / System files
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Logs / temporary files
+# ==========================
+*.log
+logs/
+*.tmp
+*.bak
+
+# ==========================
+# Maven / Java / Spring Boot
+# ==========================
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Optional: stop tracking compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# ==========================
+# Gradle / Build system (if any)
+# ==========================
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ==========================
+# Docker / PostgreSQL / Environment
+# ==========================
+*.env
+*.sql
+*.db
+*.lock.db
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# ==========================
+# Node / Frontend (if any)
+# ==========================
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ==========================
+# gRPC / Protobuf generated files
+# ==========================
+*.pb.go
+*.proto~
+
+# ==========================
+# IDE / STS / NetBeans
+# ==========================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/

@@ -3,10 +3,10 @@ POST http://localhost:4000/patients/add
 Content-Type: application/json
 
 {
-      "name": "Zankhana Parekh with Billing Account",
-      "email": "zankhana@gmail.com",
-      "address": "895 Main St, Springfield, IL",
-      "dateOfBirth": "1975-08-14",
+      "name": "cool Bubby with Billing Account",
+      "email": "bubby@gmail.com",
+      "address": "62, East ave, Cumming",
+      "dateOfBirth": "1975-08-21",
       "registeredDate": "2026-01-24"
 }
 

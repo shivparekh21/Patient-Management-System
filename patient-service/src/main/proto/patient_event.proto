@@ -1,0 +1,14 @@
+// describe all the properties that are going to be sent in any given event to the topic from our kafka producer
+syntax = "proto3";
+
+// all the generated code that we will get based on our proto file
+package patient.events;
+option java_multiple_files = true;
+
+// defining all the properties that goes into the event that get sent
+message PatientEvent{
+  string patientId = 1;
+  string name = 2;
+  string email = 3;
+  string event_type = 4;
+}
