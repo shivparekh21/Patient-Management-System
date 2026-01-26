@@ -11,7 +11,7 @@ public class PatientMapper {
     // Return PatientResponseDTO from Patient entity
     public static PatientResponseDTO dto(Patient patient) {
         PatientResponseDTO patientResponseDTO = new PatientResponseDTO();
-        patientResponseDTO.setPatientId(patient.getId().toString());
+//        patientResponseDTO.setPatientId(patient.getId().toString());
         patientResponseDTO.setName(patient.getName());
         patientResponseDTO.setEmail(patient.getEmail());
         patientResponseDTO.setAddress(patient.getAddress());

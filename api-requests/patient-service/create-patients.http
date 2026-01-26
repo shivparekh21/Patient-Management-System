@@ -3,11 +3,11 @@ POST http://localhost:4000/patients/add
 Content-Type: application/json
 
 {
-      "name": "cool Bubby with Billing Account",
-      "email": "bubby@gmail.com",
-      "address": "62, East ave, Cumming",
-      "dateOfBirth": "1975-08-21",
-      "registeredDate": "2026-01-24"
+      "name": "ioerp",
+      "email": "iorep@gmail.com",
+      "address": "ioerp, Cumming",
+      "dateOfBirth": "1966-11-25",
+      "registeredDate": "1996-08-24"
 }
 
 ###

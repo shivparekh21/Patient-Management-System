@@ -15,8 +15,8 @@ public class Patient {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @JdbcTypeCode(SqlTypes.CHAR)
-    @Column(length = 36)
+//    @JdbcTypeCode(SqlTypes.CHAR)
+//    @Column(length = 36)
     private UUID id;
 
     @NotNull
